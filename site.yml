@@ -1,0 +1,12 @@
+---
+
+- name: web setup
+  hosts: all
+  #vars_files:
+  #  - "shared_vars/test.yml"
+  tasks:
+    - debug: var=test
+    - debug: var=forward_proxy_host
+    - debug: var=forward_proxy_port
+    - debug: var=hybris_api_host
+    - debug: var=shared_thinger
