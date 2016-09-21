@@ -44,7 +44,7 @@ All group variables will be self contained within the environment.
 
 ### Shared variables
 
-Currently, the variables in `grop_vars/all` should contain variables that are
+Currently, the variables in `group_vars/all` should contain variables that are
 shared between all environments. This is not the case.
 
 All files in `shared_vars` will be symlinked into `<env>/group_vars/all`. This
